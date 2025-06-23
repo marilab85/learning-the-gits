@@ -1,0 +1,46 @@
+body {
+  background-color: white;
+  font-family: "Beaver";
+}
+.Parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+  border-style: solid;
+  border-color: #0000ff;
+  border-radius: 20px;
+}
+
+.topbox {
+  border-style: double;
+  border-color: #ff0000;
+  border-width: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.midbox {
+  border-style: dotted;
+  border-color: #00ff00;
+  padding: 20x;
+  border-width: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.lastbox {
+  border-style: groove;
+  border-color: #0000ff;
+  padding: 20px;
+  justify-content: baseline;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
